@@ -1,91 +1,77 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "docs-readme",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/regular.png",
+    "light": "/logo/inverted.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#003291",
+    "light": "#002977",
+    "dark": "#003291",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#003291",
+      "to": "#002977"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Request a Demo",
+      "url": "https://readme.com/request-a-demo"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Get Started",
+    "url": "https://dash.readme.com/signup"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+  "tabs": [],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "users",
+      "url": "https://readme.com/community"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Slack",
+      "icon": "slack",
+      "url": "https://readme.com/slack"
     }
   ],
+  "modeToggle": {
+    "default": "dark"
+  },
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Enterprise Settings",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "enterprise-settings/enterprise-settings"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Enterprise Overview",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "enterprise-overview/intro-to-readme-enterprise",
+        "enterprise-overview/enterprise-features",
+        "enterprise-overview/enterprise-faq",
+        "enterprise-overview/security-overview",
+        "enterprise-overview/request-a-demo"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "RDMD Features",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "rdmd-features/syntax-extensions",
+        "rdmd-features/custom-css",
+        "rdmd-features/code-blocks",
+        "rdmd-features/callouts",
+        "rdmd-features/tables",
+        "rdmd-features/lists",
+        "rdmd-features/headings",
+        "rdmd-features/images",
+        "rdmd-features/features"
       ]
     }
   ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+  "footerSocials": {}
 }
